@@ -1,2 +1,2 @@
 # tokio_example
-Example idea struction for tokio faster than active-web
+Example idea solution for tokio faster than active-web

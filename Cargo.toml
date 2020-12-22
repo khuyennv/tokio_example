@@ -1,0 +1,15 @@
+[package]
+authors = ["khuyennv <khuyen@vict.vn>"]
+name = "tokio_fast"
+version = "0.1.0"
+
+[dependencies]
+bytes = "0.4.8"
+futures = "0.1.22"
+tokio = "0.1.17"
+socket2 = { version = "0.3.15", features = ["reuseport", "unix"] }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
